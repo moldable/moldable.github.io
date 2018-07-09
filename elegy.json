@@ -1,6 +1,6 @@
 {
-  "name": "Moldable Documentation"
-  "namespace": "Moldable\\Docs"
+  "name": "Moldable Documentation",
+  "namespace": "Moldable\\Docs",
   "pages": [
     "index": "Pages\\Index",
     ""

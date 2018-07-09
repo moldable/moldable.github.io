@@ -1,11 +1,11 @@
 {
-    "require": {
+    "require-dev": {
         "javanile/producer": "^0.0.18",
         "javanile/moldable": "^0.0.47"
     },
     "autoload": {
         "psr-4": {
-            "World\\Things\\": "classes/"
+            "Moldable\\Docs\\": "src/"
         }
     }
 }
