@@ -1,0 +1,9 @@
+{
+  "name": "Moldable Documentation"
+  "namespace": "Moldable\\Docs"
+  "pages": [
+    "index": "Pages\\Index",
+    ""
+  ],
+  "buildPath": "."
+}
