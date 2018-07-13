@@ -11,9 +11,9 @@
  * @license   -
  */
 
-namespace Moldable\Moldable.github.io;
+namespace Moldable\MoldableGithubIo;
 
-class Moldable.github.io
+class MoldableGithubIo
 {
     /**
      * Constructor.
