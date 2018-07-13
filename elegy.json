@@ -5,5 +5,7 @@
     "index": "Pages\\Index",
     ""
   ],
-  "buildPath": "."
+  "build": {
+    "path": "."
+  }
 }
