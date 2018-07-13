@@ -2,7 +2,7 @@
 vendor/
 node_modules/
 ndev_modules/
-repository/
+packages/
 npm-debug.log
 producer.log
 producer
