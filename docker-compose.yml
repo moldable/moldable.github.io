@@ -1,0 +1,31 @@
+version: '2'
+
+services:
+
+  php:
+    image: javanile/lamp:5
+    env_file:
+      - development.env
+    volumes:
+      - ./:/var/www/html:rw
+    ports:
+      - "8080:80"
+    links:
+      - mysql
+    restart: "no"
+
+  mysql:
+    image: mysql:5.5
+    env_file:
+      - development.env
+    restart: "no"
+
+  adminer:
+    image: javanile/adminer
+    env_file:
+      - development.env
+    ports:
+    - "8081:8080"
+    links:
+    - mysql
+    restart: "no"
