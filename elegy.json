@@ -1,11 +1,15 @@
 {
-  "name": "Moldable Documentation",
-  "namespace": "Moldable\\Docs",
-  "pages": [
-    "index": "Pages\\Index",
-    ""
-  ],
-  "build": {
-    "path": "."
-  }
+    "name": "Moldable Documentation",
+    "namespace": "Javanile\\Moldable\\Docs",
+    "pages": {
+        "index": "Pages\\Index",
+        "about": "Pages\\About",
+        "docs": {
+            "page1": "Pages\\Page1",
+            "page2": "Pages\\Page2"
+        }
+    },
+    "build": {
+        "path": "."
+    }
 }
